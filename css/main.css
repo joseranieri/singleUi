@@ -1,0 +1,220 @@
+.arrowDownCard {    
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid red;
+    position: absolute;
+    top: 155px;
+    left: 75%;
+}   
+
+.areaBranca:hover{
+    transform: scale(1.01);
+    z-index:555555 !important;
+}
+
+.areaBranca{
+    transition: all .2s ease-in-out;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.cardInfo{
+    transition: all .2s ease-in-out;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+@media (min-width: 768px){
+    .cardInfo{
+        max-width: 48% !important;
+    }
+}
+
+
+@media (max-width: 576px){
+    .cardInfo{
+        max-width: 90% !important;
+    }
+    
+}
+
+.leftFistTri{
+    border-right: 0 solid transparent;
+    border-left: 130px solid transparent;
+    border-top: 130px solid white;
+    top: 0;
+    right: 25%;
+}
+
+.backgroundTriCard{
+    height: 130px;
+}
+
+.cardTri{
+    width: 0px;
+    height: 0px;
+    position: absolute;    
+}
+
+.rightSecTri{
+    border-left: 800px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 800px solid white;
+    top: 15%;
+    right: 41.5%;
+}
+
+.backTriCard{
+    background-color: white;
+}
+
+.rightFirsTriCard{
+    border-left: 0 solid transparent;
+    border-right: 130px solid transparent;
+    border-top: 130px solid white;
+    top: 0;
+    left: 25%;
+}
+
+.rightSecTriExternal{
+    border-left: 800px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 800px solid white;
+    top: 0%;
+    right: 41.5%
+}
+
+.rightSecTriInternal{
+    border-left: 800px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 800px solid orange;
+    top: 10%;
+    right: 41.5%;
+}
+
+.leftSecondTri{
+    border-right: 800px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 800px solid white;
+    position: absolute;
+    top: 15%;
+    left: 41.5%
+}
+
+.columnTriCard{
+    overflow:hidden;
+}
+
+.titleCardTri{
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+.iconTriCard{
+    text-align:center;
+    margin-top: 30px;
+}
+
+.iconTriCard i{
+    font-size: 2em;
+}
+
+.textLeftTriCard{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.textTriCard{
+    text-align: left;
+    font-size:0.8em;
+    padding-right: 25px;
+}
+
+.textRightTriCard{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.leftSecondTriExternal{
+    border-right: 800px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 800px solid white;
+    top: 0%;
+    left: 41.5%;
+}
+
+.leftSecondTriInternal{
+    border-right: 800px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 800px solid red;
+    top: 10%;
+    left: 41.5%;
+}
+
+.numberTri{
+    font-size: 3em; 
+    padding-left: 20px;
+    color:red;
+}
+
+.textTri{
+    padding-left: 20px;
+}
+
+
+@media (max-width: 256px){
+    .testHide{
+        display:none !important;
+    }
+}
+
+.cardInfo:hover{
+    transform: scale(1.1);
+    z-index:555555 !important;
+}
+
+.titleGeneral{
+    padding-bottom: 30px;
+}
+
+.numberCard{
+    font-size:3em;
+    color:white
+}
+
+.titleCard{
+    font-size:1em;
+    color:white;
+    padding-top: 30px;
+}
+
+.subtitleCard{
+    margin-top: 75px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.iconCard{
+    display:flex;
+    margin:0 auto;
+    font-size: 2em;
+}
+
+.divIcon{
+    display:flex;
+    margin:0 auto;
+}
+
+.textIconCard{
+    font-size:0.8em;
+    margin-top:20px;
+    margin-bottom:60px;
+    text-align:center;
+}
